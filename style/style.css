@@ -57,11 +57,11 @@ header h1 {
     line-height: 95px;
 }
 
-.offer>div {
+.offer >div {
     margin: 45px 0;
 }
 
-.offer>h1 {
+.offer >h1 {
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
