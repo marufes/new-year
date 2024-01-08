@@ -2,28 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  .inter {
+}
+
+.inter {
     font-family: Inter;
-  }
-  .head {
+}
+
+.head {
     font-family: Merriweather;
-  }
-  .body {
+}
+
+.body {
     margin: 50px 140px;
-  }
-  
-  section {
+}
+
+section {
     margin: 120px 0;
-  }
-  
-  button{
+}
+
+button {
     cursor: pointer;
-  }
-  header {
+}
+
+header {
     min-height: 563px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-      url("../images/Banner\ Image.png");
+        url("../images/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -31,68 +35,70 @@
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-  }
-  
-  header > section {
+}
+
+header>section {
     text-align: center;
     width: 632px;
     color: #fff;
-  }
-  
-  header h3 {
+}
+
+header h3 {
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
-  }
-  
-  .offer > div {
+}
+
+.offer>div {
     margin: 45px 0;
-  }
-  
-  .offer > h1 {
+}
+
+.offer>h1 {
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     color: #f00;
-  }
-  
-  .offer h3 {
+}
+
+.offer h3 {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     color: #f00;
-  }
-  
-  .offer h2 {
+}
+
+.offer h2 {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-  }
-  .offer-container {
+}
+
+.offer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
-  .offer-container > .offer-img {
+}
+
+.offer-container>.offer-img {
     width: 800px;
-  }
-  
-  .midnight-party-container {
+}
+
+.party-container {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-      url("../images/Vectorrr.png");
+        url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 563px;
@@ -104,29 +110,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .midnight-party {
+}
+
+.party {
     display: flex;
     justify-content: space-between;
     margin: 0 126px;
-  }
-  
-  .midnight-party > div {
+}
+
+.party>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  
-  .midnight-party h2 {
+}
+
+.party h2 {
     color: #fff;
     font-size: 64px;
     font-style: normal;
     letter-spacing: 7.04px;
     width: 642px;
-  }
-  
-  .midnight-party p {
+}
+
+.party p {
     width: 697px;
     font-size: 18px;
     font-style: normal;
@@ -134,9 +140,9 @@
     line-height: 30px;
     color: rgba(255, 255, 255, 0.8);
     margin: 25px 0;
-  }
-  
-  .midnight-party button {
+}
+
+.party button {
     width: max-content;
     margin: 10px;
     background-color: transparent;
@@ -147,42 +153,40 @@
     line-height: normal;
     text-transform: uppercase;
     color: #fff;
-  }
-  
-  .midnight-party-container img {
+}
+
+.party-container img {
     height: 320px;
-  }
-  
-  .time {
+}
+
+.time {
     height: 485px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 0, 0, 0.1) 0%,
-      rgba(255, 0, 0, 0) 100%
-    );
+    background: linear-gradient(180deg,
+            rgba(255, 0, 0, 0.1) 0%,
+            rgba(255, 0, 0, 0) 100%);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-  }
-  
-  .time h1 {
+}
+
+.time h1 {
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-  }
-  
-  .time span {
+}
+
+.time span {
     color: #f00;
-  }
-  
-  .time button {
+}
+
+.time button {
     padding: 15px 30px;
     margin-top: 45px;
     border-radius: 8px;
@@ -194,48 +198,50 @@
     line-height: normal;
     text-transform: uppercase;
     border: none;
-  }
-  
-  .new-best-offer-container {
+}
+
+.best-offer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  .new-best-offer-container div {
+}
+
+.best-offer-container div {
     width: 33%;
-  }
-  
-  .new-best-offer-left h2 {
+}
+
+.best-offer-container {
+    margin: 0 15px;
+}
+
+
+.best-offer h2 {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     color: #f00;
-  }
-  
-  .new-best-offer-left h1 {
+}
+
+.best-offer h1 {
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
     padding: 10px 0;
-  }
-  
-  .new-best-offer-left p {
+}
+
+.best-offer p {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
     color: rgba(7, 2, 17, 0.6);
-  }
-  
-  .new-best-offer-container {
-    margin: 0 15px;
-  }
-  
-  .new-best-offer-middle img {
+}
+
+
+.new-best-offer-middle img {
     height: 100%;
     width: 100%;
     border-radius: 100%;
@@ -245,25 +251,25 @@
     -o-border-radius: 100%;
     padding: 20px;
     border: #f00 10px solid;
-  }
-  
-  .new-best-offer-right {
+}
+
+.new-best-offer-right {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     float: left;
-  }
-  
-  .new-best-offer-right h1 {
+}
+
+.new-best-offer-right h1 {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     color: #f00;
-  }
-  
-  .new-best-offer-right p {
+}
+
+.new-best-offer-right p {
     width: 270px;
     font-size: 20px;
     font-style: normal;
@@ -271,102 +277,102 @@
     line-height: 32px;
     color: rgba(7, 2, 17, 0.6);
     padding: 10px 0;
-  }
-  
-  .new-best-offer-right img {
+}
+
+.new-best-offer-right img {
     height: 140px;
     width: 140px;
-  }
-  
-  .holiday-sale-container {
+}
+
+.holiday-sale-container {
     overflow: hidden;
-  }
-  
-  .holiday-sale-container-top {
+}
+
+.holiday-sale-container-top {
     text-align: center;
-  }
-  
-  .holiday-sale-container-top h3 {
+}
+
+.holiday-sale-container-top h3 {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     margin: 10px;
-  }
-  
-  .holiday-sale-container-top h1 {
+}
+
+.holiday-sale-container-top h1 {
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
     margin: 10px;
-  }
-  
-  .holiday-sale-container-top span {
+}
+
+.holiday-sale-container-top span {
     color: #f00;
-  }
-  
-  .holiday-sale-container-top p {
+}
+
+.holiday-sale-container-top p {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
     margin: 10px;
     color: rgba(7, 2, 17, 0.6);
-  }
-  
-  .holiday-sale {
+}
+
+.holiday-sale {
     position: relative;
     display: flex;
     align-items: center;
     float: right;
-  }
-  
-  .holiday-sale-right {
+}
+
+.holiday-sale-right {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  .left-middle {
+}
+
+.left-middle {
     position: absolute;
-  
+
     left: -150px;
-  }
-  
-  .rectangle-bottom {
+}
+
+.rectangle-bottom {
     position: relative;
-  }
-  
-  .rectangle-two {
+}
+
+.rectangle-two {
     width: 100%;
-  }
-  
-  .rectangle-bottom > .group {
+}
+
+.rectangle-bottom>.group {
     position: absolute;
     top: -250px;
     left: 100px;
     width: 500px;
-  }
-  
-  .gift-content h2 {
+}
+
+.gift-content h2 {
     color: #f00;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-  }
-  
-  .gift-content h1 {
+}
+
+.gift-content h1 {
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
-  }
-  
-  .gift-content p {
+}
+
+.gift-content p {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -374,20 +380,20 @@
     width: 896px;
     color: rgba(7, 2, 17, 0.6);
     margin: 20px 0;
-  }
-  
-  .gift-image {
+}
+
+.gift-image {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  .gift-image div {
+}
+
+.gift-image div {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .gift-image img {
+}
+
+.gift-image img {
     width: 32%;
     margin: 10px 0;
     border-radius: 16px;
@@ -395,60 +401,60 @@
     -moz-border-radius: 16px;
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
-  }
-  
-  .gift-image img:hover {
+}
+
+.gift-image img:hover {
     box-shadow: 0 10px 10px gray;
-  }
-  
-  .subscribe-section {
+}
+
+.subscribe-section {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-  }
-  
-  .subscribe-container {
+}
+
+.subscribe-container {
     padding: 80px 212px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
-  
-  .subscribe-container img {
+}
+
+.subscribe-container img {
     height: 150px;
     width: 150px;
-  }
-  
-  .subscribe-container h1 {
+}
+
+.subscribe-container h1 {
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
-  }
-  
-  .subscribe-container p {
+}
+
+.subscribe-container p {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
     color: rgba(7, 2, 17, 0.6);
     width: 896px;
-  }
-  
-  .subscribe-container img,
-  h1,
-  p {
+}
+
+.subscribe-container img,
+h1,
+p {
     margin: 15px 0;
-  }
-  
-  .subscribe {
+}
+
+.subscribe {
     display: flex;
     margin: 15px 0;
-  }
-  
-  .subscribe input {
+}
+
+.subscribe input {
     height: 72px;
     width: 438px;
     font-size: 18px;
@@ -462,9 +468,9 @@
     -moz-border-radius: 50px 0 0 50px;
     -ms-border-radius: 50px 0 0 50px;
     -o-border-radius: 50px 0 0 50px;
-  }
-  
-  .subscribe button {
+}
+
+.subscribe button {
     height: 72px;
     width: 210px;
     font-size: 20px;
@@ -481,77 +487,77 @@
     -ms-border-radius: 0 50px 50px 0;
     -o-border-radius: 0 50px 50px 0;
     cursor: pointer;
-  }
-  
-  footer {
+}
+
+footer {
     background-color: #070211;
     height: 609px;
     color: #fff;
-  }
-  
-  .footer-section {
+}
+
+.footer-section {
     padding: 50px 140px;
-  }
-  
-  address {
+}
+
+address {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-  }
-  
-  .address-container {
+}
+
+.address-container {
     display: flex;
     margin: 50px 0;
     align-items: center;
     justify-content: space-between;
     color: #fff;
-  }
-  
-  .address li {
+}
+
+.address li {
     list-style-type: none;
     display: flex;
     align-items: center;
-  }
-  
-  .address li img {
+}
+
+.address li img {
     margin-right: 10px;
-  }
-  
-  .address li a {
+}
+
+.address li a {
     text-decoration: none;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
     color: #fff;
-  }
-  
-  hr {
+}
+
+hr {
     height: 1px;
     background: rgba(255, 255, 255, 0.15);
-  }
-  
-  .social-link ul {
+}
+
+.social-link ul {
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 30px;
-  }
-  
-  .social-link ul img {
+}
+
+.social-link ul img {
     height: 50px;
     margin: 0 10px;
-  }
-  
-  .copyright {
+}
+
+.copyright {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-  }
-  
-  .copyright button {
+}
+
+.copyright button {
     background-color: transparent;
     color: #fff;
     border: none;
@@ -560,11 +566,11 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-  }
-  
-  .copyright small {
+}
+
+.copyright small {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-  }
+}
